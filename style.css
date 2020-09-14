@@ -1,0 +1,62 @@
+body, html {
+    font-family: "Press Start 2p", cursive;
+    background-color: #01817F;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    width: 300px;
+    margin: 30px auto;
+    padding: 10px 0px;
+    background-color: rgba(255, 255, 255, 0.762);
+    border: 1px solid black;
+}
+
+button {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    background-color: rgb(230, 230, 230);
+    font-family: "Press Start 2p", cursive;
+}
+
+#calc-container {
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+    grid-template-rows: 70px 70px 70px 70px 70px 70px;
+    justify-content: center;
+    grid-gap: 3px;
+    width: 290px;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: rgb(196, 196, 196);
+    border: 1px solid rgba(64, 64, 64, 0.762);
+    border-radius: 5px;
+}
+
+#display {
+    grid-column-start: span 4;
+    border: 1px solid black;
+    font-size: 1.5rem;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 10px;
+    font-family: "Press Start 2p", cursive;
+    background-color: rgb(255, 255, 255);
+}
+
+.clear {
+    grid-column-start: span 2;
+}
+
+.operator, .sign {
+    background-color: rgba(209, 213, 216, 0.17);
+}
+.clear {
+    background-color: rgba(161, 195, 220, 0.843);
+}
+
+.equals {
+    background-color: rgba(250, 24, 24, 0.524);
+}
